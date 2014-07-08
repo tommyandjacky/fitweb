@@ -75,13 +75,8 @@ fis.config.merge({
                 release : '/pkg/$1'
             },
             {
-<<<<<<< HEAD
                 reg : 'map.json',
                 release : '/map.json'
-=======
-                reg : /^map\.json$/i,
-                release : '$&'
->>>>>>> origin/master
             },
             {
                 reg : "**",
