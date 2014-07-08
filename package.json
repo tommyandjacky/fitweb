@@ -1,6 +1,6 @@
 {
   "name": "fitweb",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "fitweb front-end module solution based on fis",
   "main": "fitweb.js",
   "bin": {
