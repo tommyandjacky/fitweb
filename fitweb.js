@@ -66,9 +66,9 @@ fis.config.merge({
                 release : '/server/$1'
             },
             {
-                reg : /^\/app_modules\/([^\/]+)\/dist\/(.*)$/i,
+                reg : /^\/app_modules\/(.*)$/i,
                 useCache : false,
-                release : '/modules/$1/$2'
+                release : '/modules/$1'
             },
             {
                 reg : /^\/pkg\/(.*)$/i,
@@ -85,6 +85,17 @@ fis.config.merge({
             jswrapper: {
                 type: 'amd'
             }
+        },
+        parser: {
+            // nunjucks : {
+            //     name:function(file){},
+            //     env : {
+            //         tags : {
+            //             blockStart: '{%',
+            //             blockEnd: '%}'
+            //         }
+            //     }
+            // }
         },
         jshint : {
             //using Chinese reporter

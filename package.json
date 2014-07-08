@@ -1,11 +1,11 @@
 {
   "name": "fitweb",
-  "version": "0.1.4",
-  "description": "FitWeb front-end module solution based on fis",
-  "main":"fitweb.js",
+  "version": "0.1.7",
+  "description": "fitweb front-end module solution based on fis",
+  "main": "fitweb.js",
   "bin": {
     "fw": "bin/fitweb",
-    "fitweb":"bin/fitweb"
+    "fitweb": "bin/fitweb"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,8 @@
     "url": "https://github.com/tommyandjacky/fitweb/issues"
   },
   "keywords": [
-    "fitweb","fis"
+    "fitweb",
+    "fis"
   ],
   "author": "tommyandjacky",
   "license": "BSD",
@@ -26,7 +27,7 @@
     "fis": "1.7.12",
     "fis-lint-jshint": "0.0.4",
     "fis-parser-less": "0.1.0",
-    "fis-parser-nunjucks": "0.0.1",
+    "fis-parser-nunjucks": "0.0.3",
     "fis-postpackager-autoload": "0.0.x",
     "fis-postpackager-simple": "0.0.x",
     "fis-postprocessor-require-async": "0.0.8"
