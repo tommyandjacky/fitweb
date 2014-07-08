@@ -75,6 +75,10 @@ fis.config.merge({
                 release : '/pkg/$1'
             },
             {
+                reg : /^map\.json$/i,
+                release : '$&'
+            },
+            {
                 reg : "**",
                 release : false
             }
